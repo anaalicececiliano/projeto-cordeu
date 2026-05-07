@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+min-height: 100vh;
+font-family: var(--fonte1);
+}
+
+header{
+background-color: black;
+color: white;
+text-align: center;
+padding-top: 40px;
+}
+
+h1{
+padding-top: 30px;
+padding-bottom: 30px;
+font-variant:small-caps ;
+font-size: 7vw;
+font-family: var(--fonte2);
+}
+
+a{
+text-decoration: none;
+color:white ;
+font-size: 2.5vw;
+
+}
+
+header a:hover{
+text-decoration:underline;
+}
+
+.normal{
+background-color: white;
+
+}
+section{
+padding-top: 10vh;
+padding-bottom: 70px; 
+line-height:2em ;
+padding-left: 30px;
+font-family:var(--fonte3) ;
+font-size: 1em;
+
+}
+
+.img {
+background-color: rgb(87, 84, 84);
+color: white;
+padding-left: 30px;
+box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.336);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.img > p{
+width: 300px;
+padding: 10px;
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.438);
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+}
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding:10px ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Playwrite+NO:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+:root{
+    --fonte1:verdana, Geneva, tahoma, sans-serif ; 
+    --fonte2: 'Passion one', cursive;
+    --fonte3:'sriracha', cursive; 
+}
+
+section#img01{
+background-image: url(img/imagens/background001.jpg);
+background-position: right center;
+
+}
+
+section#img02{
+    background-image: url(img/imagens/background002.jpg);
+    background-position: right center;
+    
+
+}
